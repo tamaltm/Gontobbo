@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import "./login.css";
 
 class Signin extends Component {
   render() {
     return (
       <div className="login">
-        <h4>Login</h4>
+        <h4 style={{color:"white"}}>Login</h4>
         <form>
           <div className="text_area">
             <input
@@ -34,7 +35,7 @@ class Signin extends Component {
 
           />
         </form>
-        <a className="link" href="/signup">Sign Up</a>
+        <Link className="link" to="/signup">Sign Up</Link>
       </div>
     )
   }
