@@ -35,7 +35,9 @@ class Signin extends Component {
 
           />
         </form>
+        <Link className="link" to="/forget_email">Forgot Password?</Link>
         <Link className="link" to="/signup">Sign Up</Link>
+
       </div>
     )
   }
