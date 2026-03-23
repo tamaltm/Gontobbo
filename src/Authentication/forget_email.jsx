@@ -7,7 +7,7 @@ function ForgetEmail() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate('/forget_pass');
+    navigate('/forget_otp');
   };
 
   return (

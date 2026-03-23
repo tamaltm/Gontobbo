@@ -30,7 +30,7 @@ function ForgetPass() {
             type="password"
             id="n_password"
             name="n_password"
-            defaultValue=""
+            placeholder="Enter new password"
             className="text_input"
          //   required
           />
@@ -40,7 +40,7 @@ function ForgetPass() {
             type="password"
             id="c_password"
             name="c_password"
-            defaultValue=""
+            placeholder="Confirm your password"
             className="text_input"
            // required
           />
