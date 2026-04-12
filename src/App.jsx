@@ -6,10 +6,12 @@ import Signup from './Authentication/signup.jsx';
 import ForgetEmail from './Authentication/forget_email.jsx'
 import ForgetPass from './Authentication/forget_pass.jsx'
 import ForgetOtp from './Authentication/forget_otp.jsx'
+import HomePage from './HomePage/index.jsx'
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Signin />} />
+      <Route path="/home" element={<HomePage />} />
       <Route path="/forget_email" element={<ForgetEmail />} />
       <Route path="/forget_pass" element={<ForgetPass />} />
       <Route path="/signup" element={<Signup />} />

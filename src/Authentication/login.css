@@ -26,6 +26,9 @@ h4{
 .text_area{
     display: flex;
     align-items: center;
+    background: rgba(255, 255, 255, 0.246);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
     border-radius: 22px;
     margin-bottom: 24px;
     width: 100%;
